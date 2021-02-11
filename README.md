@@ -1,36 +1,8 @@
 # file-structure
+If you've been redirected from crates.io: this crate was renamed and then abandoned, so this name is available to use
 
-Representation of directory/file structure in file system to create, delete
-or link.
+If you want the name, please contact me and I'll transfer
 
-This crate is in a early development stage, we can only read file structures
-for now.
+Contact info updated at github.com/marcospb19/marcospb19
 
-There's a lot left to be documented... there are some code in `examples/`
-folder for now, it can give you a blurry image of what this crate is about.
-
-See source code for `File` and `FileType` structs, and the methods they
-supply.
-
-## Performance note:
-This might change, but this crate isn't intended to be the fastest one out
-there, there is a lot to improve in terms of performance, however, we will
-be more focused in nice error treatment instead of blazing thought the file
-system and returning a `io::Result` for everything.
-
-## Alternatives:
-If you don't want to create structures, but instead, just read directories,
-I suggest you use `walkdir` instead.
-
----
-
-There's a crate in progress to make a human readable parser out of this
-representation.
-
-TODO:
-fix Pathsiter
-enable all tests in rustdocs
-.from_text() method for File
-.merge() method for File
-FileType -> mode_t
-improve fmt::Debug on File and FileType recursive display
+You can also create an issue at that readmed repo, and I'll answer your request if I'm still alive.
